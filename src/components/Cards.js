@@ -37,7 +37,7 @@ const Cards = () => {
                                         <Card.Title className='text-center'>{name}</Card.Title> 
                                         <Card.Text className='text-center'>{qty}</Card.Text>
                                         <div className='d-flex justify-content-between'>
-                                        <Card.Text style = {{border:"1px solid lightgrey",padding: "5px",borderRadius: "8px"}}>₹{stprice}</Card.Text>
+                                        <Card.Text style = {{border:"1px solid lightgrey",padding: "5px",borderRadius: "8px", textDecoration: "line-through"}}>₹{stprice}</Card.Text>
                                         <Card.Text style = {{border:"1px solid lightgrey",padding: "5px",borderRadius: "8px"}}>₹{price}</Card.Text>
                                         {/* <Button  ><img className='f-22' src="https://www.naturesbasket.co.in/Images/CartAddBtn.PNG" alt="" /></Button> */}
                                         <img  onClick={()=> send(elem)} style = {{borderRadius:"8px",height:"2pc", width:"6pc"}} className='f-22' src="https://www.naturesbasket.co.in/Images/CartAddBtn.PNG" alt="" />

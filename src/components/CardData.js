@@ -48,6 +48,7 @@ const Cardsdata = [
     name: "NB CLASSY CHEESE PLATTER",
     category: "CHEESE",
     qty:1+"p",
+    stprice: 1999,
     price:1499 ,
 
 
@@ -58,6 +59,7 @@ const Cardsdata = [
     name: "NB ORGANIC CHEESE BOX 1",
     category: "CHEESE",
     qty:125+"g",
+    stprice: 999,
     price:699 ,
 
 
@@ -68,6 +70,7 @@ const Cardsdata = [
     name: "NB CHEESE BOX 3",
     category: "CHEESE",
     qty:125+"g",
+    stprice: 699,
     price: 456,
 
 
@@ -78,6 +81,7 @@ const Cardsdata = [
     name: "NB CHEESE IN A TRAY 1",
     category: "CHEESE",
     qty:125+"g",
+    stprice: 769,
     price:565 ,
 
 
@@ -88,7 +92,8 @@ const Cardsdata = [
     name: "MEAT PLATTER Turkey",
     category: "MEAT",
     qty:1+"P",
-    price:599 ,
+    stprice: 970,
+    price:599 
 
 
 },
